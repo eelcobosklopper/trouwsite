@@ -1,15 +1,41 @@
 import React from "react"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+import Layout from "../components/layout"
+import Maps from "../components/Maps"
+
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <Image />
+    <div className="container section">
+      <Img fluid={data.landSchapImage.childImageSharp.fluid} />
+    </div>
+    <Maps />
+    <div className="container section">
+      <Img fluid={data.flower.childImageSharp.fluid} />
+    </div>
   </Layout>
 )
 
+export const query = graphql`
+  query {
+    flower: file(relativePath: { eq: "paintbrush.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    landSchapImage: file(relativePath: { eq: "landschap.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1980) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 export default IndexPage

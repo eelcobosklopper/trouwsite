@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Jolien & Eelco gaan trouwen`,
+    title: `Jolien & Eelco Bruiloft`,
     description: `De grote trouwsite voor de twee donders`,
     author: `Eelco Bosklopper`,
   },
@@ -22,8 +22,8 @@ module.exports = {
         name: `jolien-eelco-trouwen`,
         short_name: `trouwsite`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#237055`,
+        theme_color: `#237055`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
