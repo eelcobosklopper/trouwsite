@@ -1,9 +1,11 @@
 # DONE
+* Domeinnaam koppelen
+* Vette foto erbiijj
+
+# DOING
+* Bulma css toevoegen
 
 # TODO
-* Domeinnaam koppelen
-* Bulma css toevoegen
-* Vette foto erbiijj
 * Fonts erbij
 * Domeinnaam stopzetten
 * Google maps erbij
@@ -11,3 +13,4 @@
 * Navigatie toevoegen
 * Programma
 * Parkeren en OV
+* animejs toevoegen voor leuke animaties?
