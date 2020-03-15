@@ -4,12 +4,13 @@
 * Bulma css toevoegen
 * Google maps erbij
 * Fonts erbij
+* HTTPS
 
 # DOING
-
-# TODO
 * Programma
 * Navigatie toevoegen
+
+# TODO
 * Parkeren en OV
 * Vermelding Tineke voor de illustraties?
 * Domeinnaam stopzetten

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Jolien & Eelco Bruiloft`,
+    title: `Jolien & Eelco gaan trouwen!`,
     description: `De grote trouwsite voor de twee donders`,
     author: `Eelco Bosklopper`,
   },

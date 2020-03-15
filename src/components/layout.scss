@@ -1,32 +1,120 @@
-@import "~bulma/bulma.sass";
+$primary: rgb(63, 91, 79);
+$primaryContrast: white;
 
-$primaryColor: rgb(63, 91, 79);
-$primaryColorContrast: white;
+$secondary: #48868f;
+$flower: #e65256;
+$greenBag: #a2a923;
 
 $backgroundColor: #f5f5dc;
+@import "~bulma/bulma.sass";
+
+html {
+  // zorgt voor smooth scroll bij klikken op nav item
+  scroll-behavior: smooth;
+  word-break: break-word;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
 
 body {
   background: $backgroundColor;
-  font-family: 'Spectral', serif;
+  font-family: "Spectral", serif;
+  font-size: 1.4rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Bad Script", cursive;
 }
 
-.site-header {
-  background: $primaryColor;
-  padding: 1rem;
+h1 {
+  font-size: 3rem;
 }
 
-.map {
-  height: 75vh;
-  width: 100%;
-  border-top: solid 20px $primaryColor;
-  border-bottom: solid 20px $primaryColor;
+h2 {
+  font-size: 3rem;
+  // font-weight: bold;
+}
+
+.site-header {
+  background: $primary;
+  padding: 1rem;
+  color: $primaryContrast;
+  text-align: center;
 }
 
 .flower-img {
   width: 300px;
   margin: 0 auto;
+}
+
+.homepage {
+  .programma-blok {
+    text-align: center;
+
+    &.box {
+      border-radius: 0;
+    }
+
+    h2 {
+      margin-bottom: 2rem;
+    }
+
+    .programma-blok-row {
+      margin-bottom: 1rem;
+    }
+
+    .programma-blok-key {
+      margin-right: 1rem;
+      font-weight: bold;
+    }
+  }
+
+  .meer-info-blok {
+    text-align: center;
+    .title {
+      margin-top: 1.2rem;
+    }
+  }
+
+  .locatie-blok {
+    background-color: $primary;
+    color: $primaryContrast;
+
+    h2 {
+      text-align: center;
+    }
+
+    .map {
+      height: 50vh;
+      width: 100%;
+    }
+  }
+}
+
+.is-flower {
+  background-color: $flower;
+  color: white;
+}
+
+.is-green-bag {
+  background-color: $greenBag;
+  color: white;
+}
+
+.is-secondary {
+  background-color: $secondary;
+  color: white;
+}
+
+.site-footer {
+  text-align: center;
 }
