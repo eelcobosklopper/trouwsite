@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container section">
         <p>
           Illustraties gemaakt door Tineke de Boer:{" "}
-          <a href="https://www.tinekefrancisca.nl/" target="_blank">
+          <a href="https://www.tinekefrancisca.nl/" target="_blank" rel="noopener noreferrer">
             tinekefrancisca.nl
           </a>
         </p>
