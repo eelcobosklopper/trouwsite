@@ -2,16 +2,16 @@
 * Domeinnaam koppelen
 * Vette foto erbiijj
 * Bulma css toevoegen
+* Google maps erbij
+* Fonts erbij
 
 # DOING
-* Google maps erbij
 
 # TODO
-* Fonts erbij
-* Domeinnaam stopzetten
-* Foto album functionaliteit
-* Navigatie toevoegen
 * Programma
+* Navigatie toevoegen
 * Parkeren en OV
 * Vermelding Tineke voor de illustraties?
+* Domeinnaam stopzetten
+* Foto album functionaliteit
 * animejs toevoegen voor leuke animaties?

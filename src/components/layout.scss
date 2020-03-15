@@ -1,12 +1,17 @@
-@import '~bulma/bulma.sass';
+@import "~bulma/bulma.sass";
 
-$primaryColor: #237055;
+$primaryColor: rgb(63, 91, 79);
 $primaryColorContrast: white;
 
 $backgroundColor: #f5f5dc;
 
 body {
   background: $backgroundColor;
+  font-family: 'Spectral', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bad Script", cursive;
 }
 
 .site-header {
@@ -15,6 +20,13 @@ body {
 }
 
 .map {
-  height: 50vh;
+  height: 75vh;
   width: 100%;
+  border-top: solid 20px $primaryColor;
+  border-bottom: solid 20px $primaryColor;
+}
+
+.flower-img {
+  width: 300px;
+  margin: 0 auto;
 }

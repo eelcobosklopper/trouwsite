@@ -17,6 +17,13 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`bad script`, `Spectral`],
+        display: "swap",
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `jolien-eelco-trouwen`,

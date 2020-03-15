@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => (
     </div>
     <Maps />
     <div className="container section">
-      <Img fluid={data.flower.childImageSharp.fluid} />
+      <Img className="flower-img" fluid={data.flower.childImageSharp.fluid} />
     </div>
   </Layout>
 )
@@ -24,7 +24,7 @@ export const query = graphql`
   query {
     flower: file(relativePath: { eq: "paintbrush.png" }) {
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid
         }
       }
