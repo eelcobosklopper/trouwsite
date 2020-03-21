@@ -41,7 +41,7 @@ const IndexPage = ({ data }) => (
       </div>
       <div id="meer-info" className="container section meer-info-blok">
         <div className="tile is-ancestor">
-          <div class="tile is-vertical">
+          <div className="tile is-vertical">
             <div className="tile">
               <div className="tile is-parent">
                 <div className="tile is-child is-vertical notification is-flower">

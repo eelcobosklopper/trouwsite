@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`bad script`, `Spectral`],
+        fonts: [`Spectral`, `Roboto Slab`],
         display: "swap",
       },
     },

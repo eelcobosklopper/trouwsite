@@ -6,6 +6,9 @@ $flower: #e65256;
 $greenBag: #a2a923;
 
 $backgroundColor: #f5f5dc;
+$navbar-item-hover-color: white;
+$navbar-item-hover-background-color: $flower;
+
 @import "~bulma/bulma.sass";
 
 html {
@@ -32,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bad Script", cursive;
+  font-family: "Roboto Slab";
 }
 
 h1 {
@@ -49,6 +52,10 @@ h2 {
   padding: 1rem;
   color: $primaryContrast;
   text-align: center;
+}
+
+.navbar > .container {
+  justify-content: center;
 }
 
 .flower-img {

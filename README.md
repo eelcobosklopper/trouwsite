@@ -5,14 +5,14 @@
 * Google maps erbij
 * Fonts erbij
 * HTTPS
+* Navigatie toevoegen
+* Programma
+* Vermelding Tineke voor de illustraties?
 
 # DOING
-* Programma
-* Navigatie toevoegen
+* Parkeren en OV
 
 # TODO
-* Parkeren en OV
-* Vermelding Tineke voor de illustraties?
 * Domeinnaam stopzetten
 * Foto album functionaliteit
 * animejs toevoegen voor leuke animaties?
