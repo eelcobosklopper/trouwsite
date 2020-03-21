@@ -83,7 +83,6 @@ const IndexPage = ({ data }) => (
             <div className="tile is-parent">
               <div className="tile is-child is-vertical notification is-secondary">
                 <h2 className="title">Ceremoniemeesters</h2>
-                {/* <h3 className="sub-title">Ceremoniemeesters</h3> */}
                 <div
                   className="content"
                   style={{ maxWidth: "800px", margin: "0 auto" }}
@@ -113,40 +112,38 @@ const IndexPage = ({ data }) => (
         </div>
         <Maps />
         <div className="container section">
-          <p>
-            <div className="columns">
-              <div className="column">
-                <h3>Parkeren bij Vroeg</h3>
-                <p>
-                  Je kunt bij Vroeg gratis parkeren op hun eigen terrein met 120
-                  parkeerplaatsen. Mocht de parkeerplaats van Vroeg onverhoopt
-                  toch vol zijn, dan verwijzen we jou graag naar de
-                  parkeerplaats P3 Oud Amelisweerd. Deze parkeerplaats ligt op
-                  ongeveer 150 meter van Vroeg (inrijden mogelijk van zonsopgang
-                  tot zonsondergang, uitrijden altijd mogelijk).
-                </p>
-              </div>
-              <div className="column">
-                <h3>Openbaar vervoer</h3>
-                <p>
-                  Vanaf Utrecht CS, circa 10 minuten met de bus. Halte Oud
-                  Amelisweerd. Bus 41 naar Wijk bij Duurstede. Vanaf Station
-                  Bunnik, circa 15 minuten met de bus. Halte Oud Amelisweerd.
-                  Bus 41 naar Utrecht. Deze bus rijdt over het algemeen ‘s
-                  avonds elk half uur, tot ongeveer half 1 ‘s nachts.
-                  <br />
-                  Check dit van te voren wel op{" "}
-                  <a
-                    href="https://9292.nl/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    9292.nl!
-                  </a>
-                </p>
-              </div>
+          <div className="columns">
+            <div className="column">
+              <h3>Parkeren bij Vroeg</h3>
+              <p>
+                Je kunt bij Vroeg gratis parkeren op hun eigen terrein met 120
+                parkeerplaatsen. Mocht de parkeerplaats van Vroeg onverhoopt
+                toch vol zijn, dan verwijzen we jou graag naar de parkeerplaats
+                P3 Oud Amelisweerd. Deze parkeerplaats ligt op ongeveer 150
+                meter van Vroeg (inrijden mogelijk van zonsopgang tot
+                zonsondergang, uitrijden altijd mogelijk).
+              </p>
             </div>
-          </p>
+            <div className="column">
+              <h3>Openbaar vervoer</h3>
+              <p>
+                Vanaf Utrecht CS, circa 10 minuten met de bus. Halte Oud
+                Amelisweerd. Bus 41 naar Wijk bij Duurstede. Vanaf Station
+                Bunnik, circa 15 minuten met de bus. Halte Oud Amelisweerd. Bus
+                41 naar Utrecht. Deze bus rijdt over het algemeen ‘s avonds elk
+                half uur, tot ongeveer half 1 ‘s nachts.
+                <br />
+                Check dit van te voren wel op{" "}
+                <a
+                  href="https://9292.nl/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  9292.nl!
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

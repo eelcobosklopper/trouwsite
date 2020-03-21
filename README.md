@@ -8,9 +8,9 @@
 * Navigatie toevoegen
 * Programma
 * Vermelding Tineke voor de illustraties?
+* Parkeren en OV
 
 # DOING
-* Parkeren en OV
 
 # TODO
 * Domeinnaam stopzetten
