@@ -38,6 +38,16 @@ const IndexPage = ({ data }) => (
             <span className="programma-blok-value">0:30</span>
           </div>
         </div>
+        <div className="programma-extra">
+          <p>
+            Dineren is op eigen gelegenheid. Dit kan op locatie bij Restaurant
+            Vroeg of bij andere restaurants in de buurt. Het is wel aan te raden
+            om hiervoor te reserveren, zodat je ook op tijd bij de ceremonie
+            aanwezig kunt zijn.
+          </p>
+          <br />
+          <p>Kom dus met een gevulde maag, maar laat ruimte voor de taart!</p>
+        </div>
       </div>
       <div id="meer-info" className="container section meer-info-blok">
         <div className="tile is-ancestor">
@@ -50,7 +60,7 @@ const IndexPage = ({ data }) => (
                     <p>
                       Feestelijk! Kom vooral in een pak of jurk met wat kleur!
                       Je wordt wel verwacht om mee te doen op de dansvloer, dus
-                      hou hier rekening mee.
+                      houd hier rekening mee.
                     </p>
                   </div>
                 </div>
@@ -59,7 +69,12 @@ const IndexPage = ({ data }) => (
                 <div className="tile is-child is-vertical notification is-green-bag">
                   <h2 className="title">Cadeautip</h2>
                   <div className="content">
-                    <p>Een envelopje!</p>
+                    <p>
+                      Een envelopje! We willen graag de meubels in onze huidige
+                      of toekomstige woning een upgrade geven. Weg{" "}
+                      <i>‘bij-elkaar-geraapte-studenten’</i>-spullen en welkom{" "}
+                      <i>‘it-really-ties-the-room-together’</i>-spullen!
+                    </p>
                   </div>
                 </div>
               </div>
@@ -69,13 +84,19 @@ const IndexPage = ({ data }) => (
               <div className="tile is-child is-vertical notification is-secondary">
                 <h2 className="title">Ceremoniemeesters</h2>
                 {/* <h3 className="sub-title">Ceremoniemeesters</h3> */}
-                <div className="content">
+                <div
+                  className="content"
+                  style={{ maxWidth: "800px", margin: "0 auto" }}
+                >
                   <p>
-                    Voor overige vragen kun je bij onze ceremoniemeester
-                    terecht: Britt & Kasper!
-                  </p>
-                  <p>
-                    Zij zijn te bereiken op JolienEnEelcoGaanTrouwen@gmail.com
+                    Tijdens de taart enzo is er beperkte tijd voor speeches en
+                    stukjes. Mocht je erg graag iets willen doen, overleg dit
+                    dan met onze ceremoniemeesters: Britt & Kasper!
+                    <br />
+                    Ook voor overige vragen kun je terecht bij onze
+                    ceremoniemeesters!
+                    <br />
+                    Zij zijn te bereiken via JolienEnEelcoGaanTrouwen@gmail.com
                   </p>
                 </div>
               </div>
@@ -92,7 +113,40 @@ const IndexPage = ({ data }) => (
         </div>
         <Maps />
         <div className="container section">
-          <p>Allemaal tekst!</p>
+          <p>
+            <div className="columns">
+              <div className="column">
+                <h3>Parkeren bij Vroeg</h3>
+                <p>
+                  Je kunt bij Vroeg gratis parkeren op hun eigen terrein met 120
+                  parkeerplaatsen. Mocht de parkeerplaats van Vroeg onverhoopt
+                  toch vol zijn, dan verwijzen we jou graag naar de
+                  parkeerplaats P3 Oud Amelisweerd. Deze parkeerplaats ligt op
+                  ongeveer 150 meter van Vroeg (inrijden mogelijk van zonsopgang
+                  tot zonsondergang, uitrijden altijd mogelijk).
+                </p>
+              </div>
+              <div className="column">
+                <h3>Openbaar vervoer</h3>
+                <p>
+                  Vanaf Utrecht CS, circa 10 minuten met de bus. Halte Oud
+                  Amelisweerd. Bus 41 naar Wijk bij Duurstede. Vanaf Station
+                  Bunnik, circa 15 minuten met de bus. Halte Oud Amelisweerd.
+                  Bus 41 naar Utrecht. Deze bus rijdt over het algemeen ‘s
+                  avonds elk half uur, tot ongeveer half 1 ‘s nachts.
+                  <br />
+                  Check dit van te voren wel op{" "}
+                  <a
+                    href="https://9292.nl/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    9292.nl!
+                  </a>
+                </p>
+              </div>
+            </div>
+          </p>
         </div>
       </div>
     </div>

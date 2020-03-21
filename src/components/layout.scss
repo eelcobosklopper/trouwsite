@@ -44,7 +44,10 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  // font-weight: bold;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 .site-header {
@@ -56,11 +59,21 @@ h2 {
 
 .navbar > .container {
   justify-content: center;
+
+  .navbar-item {
+    text-align: center;
+  }
 }
 
 .flower-img {
   width: 300px;
   margin: 0 auto;
+}
+
+.title {
+  @media only screen and (max-width: 768px) {
+    font-size: 1.6rem;
+  }
 }
 
 .homepage {
@@ -83,6 +96,11 @@ h2 {
       margin-right: 1rem;
       font-weight: bold;
     }
+
+    .programma-extra {
+      max-width: 800px;
+      margin: 2rem auto 0;
+    }
   }
 
   .meer-info-blok {
@@ -100,9 +118,23 @@ h2 {
       text-align: center;
     }
 
+    h3 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
     .map {
       height: 50vh;
       width: 100%;
+    }
+
+    a {
+      color: white;
+      text-decoration: underline;
     }
   }
 }
