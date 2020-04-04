@@ -52,6 +52,21 @@ const IndexPage = ({ data }) => (
       <div id="meer-info" className="container section meer-info-blok">
         <div className="tile is-ancestor">
           <div className="tile is-vertical">
+            <div className="tile is-parent">
+              <div className="tile is-child is-vertical notification is-primary">
+                <h2 className="title">COVID-19 (Corona) business</h2>
+                <div
+                  className="content"
+                  style={{ maxWidth: "800px", margin: "0 auto" }}
+                >
+                  <p>
+                    Het zijn vreemde tijden! We hopen uiteraard dat tegen de
+                    tijd dat de bruiloft is, dat iedereen nog/weer gezond is en
+                    dat wij samen een mooi feest kunnen vieren. 
+                  </p>
+                </div>
+              </div>
+            </div>
             <div className="tile">
               <div className="tile is-parent">
                 <div className="tile is-child is-vertical notification is-flower">
@@ -109,6 +124,7 @@ const IndexPage = ({ data }) => (
       <div id="locatie" className="locatie-blok">
         <div className="container section">
           <h2>De Locatie</h2>
+          <h3>Achterdijk 1 te Bunnik</h3>
         </div>
         <Maps />
         <div className="container section">
@@ -161,7 +177,7 @@ export const query = graphql`
     }
     landSchapImage: file(relativePath: { eq: "landschap.png" }) {
       childImageSharp {
-        fluid(maxWidth: 1980) {
+        fluid(maxWidth: 1400) {
           ...GatsbyImageSharpFluid
         }
       }
