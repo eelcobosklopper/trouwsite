@@ -14,6 +14,40 @@ const IndexPage = ({ data }) => (
       <div className="container section">
         <Img fluid={data.landSchapImage.childImageSharp.fluid} />
       </div>
+      <div id="meer-info" className="container section meer-info-blok">
+        <div className="tile is-ancestor">
+          <div className="tile is-vertical">
+            <div className="tile is-parent">
+              <div className="tile is-child is-vertical notification is-flower">
+                <h2 className="title">2021 is het nieuwe 2020!</h2>
+                <div
+                  className="content"
+                  style={{ maxWidth: "800px", margin: "0 auto" }}
+                >
+                  <p>
+                    Helaas moeten wij het bruiloftsfeest nogmaals uitstellen. De
+                    locatie heeft aangegeven dat een feest geven voor 50 man
+                    niet gaat lukken in de ruimte die wij hiervoor in gedachten
+                    hadden met alle Corona-maatregelen. 
+                  </p>
+                  <p>
+                    Waarschijnlijk zullen wij dit jaar wel een zeer kleine
+                    ceremonie houden bij het gemeentehuis. Volgend jaar gaat het
+                    feest dan alsnog door! We weten alleen nog niet precies
+                    wanneer. Deze keer gaan we wat langer wachten tot alles
+                    duidelijk is qua maatregelen.
+                  </p>
+                  <p>
+                    Dus verwacht in de loop van dit jaar nog een mail met een
+                    nieuwe datum voor het feest!  Wij hopen jullie dan (en
+                    daarvoor natuurlijk ook al) te zien!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div id="programma" className="section programma-blok box">
         <h2>Het programma</h2>
         <div className="programma-blok-content">
@@ -52,7 +86,7 @@ const IndexPage = ({ data }) => (
       <div id="meer-info" className="container section meer-info-blok">
         <div className="tile is-ancestor">
           <div className="tile is-vertical">
-            <div className="tile is-parent">
+            {/* <div className="tile is-parent">
               <div className="tile is-child is-vertical notification is-primary">
                 <h2 className="title">COVID-19 (Corona) business</h2>
                 <div
@@ -66,10 +100,10 @@ const IndexPage = ({ data }) => (
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="tile">
               <div className="tile is-parent">
-                <div className="tile is-child is-vertical notification is-flower">
+                <div className="tile is-child is-vertical notification is-primary">
                   <h2 className="title">Dresscode</h2>
                   <div className="content">
                     <p>

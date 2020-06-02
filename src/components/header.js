@@ -6,7 +6,7 @@ const Header = ({ siteTitle }) => (
   <header className="site-header">
     <div className="container section">
       <h1>{siteTitle}</h1>
-      <h2 className="sub-title">11 september 2020</h2>
+      <h2 className="sub-title">Wanneer is nog even onbekend...</h2>
     </div>
   </header>
 )
