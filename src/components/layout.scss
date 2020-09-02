@@ -146,11 +146,19 @@ h3 {
 .is-flower {
   background-color: $flower;
   color: white;
+
+  &:hover {
+    color: white;
+  }
 }
 
 .is-green-bag {
   background-color: $greenBag;
   color: white;
+
+  &:hover {
+    color: white;
+  }
 }
 
 .is-secondary {

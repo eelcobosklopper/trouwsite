@@ -1,16 +1,21 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 
 import SEO from "../components/seo"
 
+import Navigation from "../components/Navigation"
 import Layout from "../components/layout"
 import Maps from "../components/Maps"
 
 const IndexPage = ({ data }) => (
   <Layout>
+    <Navigation />
     <div className="homepage">
       <SEO title="Home" />
+      <div className="container section" style={{textAlign: 'center'}}>
+        <Link to="/31-augustus"><button className="button is-large is-flower">Zie hier een preview van 31 augustus!</button></Link>
+      </div>
       <div className="container section">
         <Img fluid={data.landSchapImage.childImageSharp.fluid} />
       </div>
